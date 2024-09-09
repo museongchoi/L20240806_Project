@@ -4,6 +4,13 @@ using namespace std;
 
 int main()
 {
+	// 포인터와 참조연산자.
+	int a = 10;
+
+	int* ptr = &a;
+
+	cout << ptr;
+
 	// int 와는 별개라고 생각하는게 외우기 쉬움.
 	int* P = new int;
 
